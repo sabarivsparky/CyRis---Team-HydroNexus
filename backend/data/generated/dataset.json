@@ -1,0 +1,1335 @@
+{
+  "assets": [
+    {
+      "id": "AST-001",
+      "name": "Mobile Banking API Front-End",
+      "asset_type": "api_gateway",
+      "business_unit": "Digital Channels",
+      "criticality": 3,
+      "annual_revenue_dependency_inr": 500000000,
+      "data_sensitivity": 4,
+      "internet_facing": true,
+      "is_crown_jewel": false,
+      "subnet": "Subnet A"
+    },
+    {
+      "id": "AST-002",
+      "name": "Authentication Microservice Container",
+      "asset_type": "microservice",
+      "business_unit": "Digital Channels",
+      "criticality": 4,
+      "annual_revenue_dependency_inr": 1200000000,
+      "data_sensitivity": 4,
+      "internet_facing": false,
+      "is_crown_jewel": false,
+      "subnet": "Subnet B"
+    },
+    {
+      "id": "AST-003",
+      "name": "Core Transaction Database Vault",
+      "asset_type": "database",
+      "business_unit": "Core Banking",
+      "criticality": 5,
+      "annual_revenue_dependency_inr": 5000000000,
+      "data_sensitivity": 5,
+      "internet_facing": false,
+      "is_crown_jewel": true,
+      "subnet": "Subnet C"
+    },
+    {
+      "id": "AST-004",
+      "name": "Privileged Active Directory Service Principal Account",
+      "asset_type": "identity",
+      "business_unit": "Shared IT",
+      "criticality": 5,
+      "annual_revenue_dependency_inr": 3000000000,
+      "data_sensitivity": 5,
+      "internet_facing": false,
+      "is_crown_jewel": true,
+      "subnet": "Subnet B"
+    },
+    {
+      "id": "AST-005",
+      "name": "Payment Gateway Edge Proxy",
+      "asset_type": "web_frontend",
+      "business_unit": "Payments",
+      "criticality": 4,
+      "annual_revenue_dependency_inr": 2500000000,
+      "data_sensitivity": 4,
+      "internet_facing": true,
+      "is_crown_jewel": false,
+      "subnet": "Subnet A"
+    },
+    {
+      "id": "AST-006",
+      "name": "Treasury Settlement Engine",
+      "asset_type": "microservice",
+      "business_unit": "Treasury",
+      "criticality": 4,
+      "annual_revenue_dependency_inr": 1888028096,
+      "data_sensitivity": 3,
+      "internet_facing": false,
+      "is_crown_jewel": false,
+      "subnet": "Subnet A"
+    },
+    {
+      "id": "AST-007",
+      "name": "SWIFT Integration Gateway",
+      "asset_type": "api_gateway",
+      "business_unit": "Treasury",
+      "criticality": 4,
+      "annual_revenue_dependency_inr": 600795614,
+      "data_sensitivity": 5,
+      "internet_facing": true,
+      "is_crown_jewel": false,
+      "subnet": "Subnet A"
+    },
+    {
+      "id": "AST-008",
+      "name": "Customer Onboarding Portal",
+      "asset_type": "web_frontend",
+      "business_unit": "Digital Channels",
+      "criticality": 4,
+      "annual_revenue_dependency_inr": 529299807,
+      "data_sensitivity": 3,
+      "internet_facing": true,
+      "is_crown_jewel": false,
+      "subnet": "Subnet A"
+    },
+    {
+      "id": "AST-009",
+      "name": "Core Banking Mainframe Adapter",
+      "asset_type": "application_server",
+      "business_unit": "Core Banking",
+      "criticality": 3,
+      "annual_revenue_dependency_inr": 160075656,
+      "data_sensitivity": 2,
+      "internet_facing": false,
+      "is_crown_jewel": false,
+      "subnet": "Subnet A"
+    },
+    {
+      "id": "AST-010",
+      "name": "Corporate Payments Portal",
+      "asset_type": "web_frontend",
+      "business_unit": "Payments",
+      "criticality": 3,
+      "annual_revenue_dependency_inr": 175352307,
+      "data_sensitivity": 2,
+      "internet_facing": false,
+      "is_crown_jewel": false,
+      "subnet": "Subnet C"
+    },
+    {
+      "id": "AST-011",
+      "name": "ATM Controller Cluster",
+      "asset_type": "microservice",
+      "business_unit": "Digital Channels",
+      "criticality": 4,
+      "annual_revenue_dependency_inr": 823084553,
+      "data_sensitivity": 3,
+      "internet_facing": false,
+      "is_crown_jewel": false,
+      "subnet": "Subnet C"
+    },
+    {
+      "id": "AST-012",
+      "name": "Retail Loan Origination Service",
+      "asset_type": "application_server",
+      "business_unit": "Core Banking",
+      "criticality": 4,
+      "annual_revenue_dependency_inr": 1066173605,
+      "data_sensitivity": 4,
+      "internet_facing": false,
+      "is_crown_jewel": false,
+      "subnet": "Subnet C"
+    },
+    {
+      "id": "AST-013",
+      "name": "Credit Card Fraud Detection Engine",
+      "asset_type": "microservice",
+      "business_unit": "Payments",
+      "criticality": 4,
+      "annual_revenue_dependency_inr": 2778603339,
+      "data_sensitivity": 4,
+      "internet_facing": false,
+      "is_crown_jewel": false,
+      "subnet": "Subnet A"
+    },
+    {
+      "id": "AST-014",
+      "name": "Customer Identity Directory (LDAP)",
+      "asset_type": "identity",
+      "business_unit": "Shared IT",
+      "criticality": 4,
+      "annual_revenue_dependency_inr": 987667830,
+      "data_sensitivity": 4,
+      "internet_facing": false,
+      "is_crown_jewel": false,
+      "subnet": "Subnet B"
+    },
+    {
+      "id": "AST-015",
+      "name": "Centralized Log Collector (Splunk)",
+      "asset_type": "cloud_workload",
+      "business_unit": "Shared IT",
+      "criticality": 4,
+      "annual_revenue_dependency_inr": 803169573,
+      "data_sensitivity": 3,
+      "internet_facing": false,
+      "is_crown_jewel": false,
+      "subnet": "Subnet C"
+    },
+    {
+      "id": "AST-016",
+      "name": "DMZ Perimeter Firewall Cluster",
+      "asset_type": "network_device",
+      "business_unit": "Shared IT",
+      "criticality": 4,
+      "annual_revenue_dependency_inr": 625321900,
+      "data_sensitivity": 4,
+      "internet_facing": false,
+      "is_crown_jewel": false,
+      "subnet": "Subnet C"
+    },
+    {
+      "id": "AST-017",
+      "name": "Core Internal Router Pair",
+      "asset_type": "network_device",
+      "business_unit": "Shared IT",
+      "criticality": 3,
+      "annual_revenue_dependency_inr": 98208320,
+      "data_sensitivity": 4,
+      "internet_facing": false,
+      "is_crown_jewel": false,
+      "subnet": "Subnet C"
+    },
+    {
+      "id": "AST-018",
+      "name": "General Ledger Database",
+      "asset_type": "database",
+      "business_unit": "Core Banking",
+      "criticality": 5,
+      "annual_revenue_dependency_inr": 11418896832,
+      "data_sensitivity": 5,
+      "internet_facing": false,
+      "is_crown_jewel": true,
+      "subnet": "Subnet B"
+    },
+    {
+      "id": "AST-019",
+      "name": "Customer PII Data Lake",
+      "asset_type": "database",
+      "business_unit": "Digital Channels",
+      "criticality": 4,
+      "annual_revenue_dependency_inr": 1997717621,
+      "data_sensitivity": 3,
+      "internet_facing": false,
+      "is_crown_jewel": false,
+      "subnet": "Subnet B"
+    },
+    {
+      "id": "AST-020",
+      "name": "Wealth Management Portal",
+      "asset_type": "web_frontend",
+      "business_unit": "Digital Channels",
+      "criticality": 1,
+      "annual_revenue_dependency_inr": 296666,
+      "data_sensitivity": 2,
+      "internet_facing": false,
+      "is_crown_jewel": false,
+      "subnet": "Subnet B"
+    },
+    {
+      "id": "AST-021",
+      "name": "Third-Party Payment Partner Switch",
+      "asset_type": "third_party",
+      "business_unit": "Payments",
+      "criticality": 1,
+      "annual_revenue_dependency_inr": 226958,
+      "data_sensitivity": 2,
+      "internet_facing": true,
+      "is_crown_jewel": false,
+      "subnet": "Subnet A"
+    },
+    {
+      "id": "AST-022",
+      "name": "Enterprise Analytics Engine",
+      "asset_type": "cloud_workload",
+      "business_unit": "Shared IT",
+      "criticality": 3,
+      "annual_revenue_dependency_inr": 222333748,
+      "data_sensitivity": 4,
+      "internet_facing": false,
+      "is_crown_jewel": false,
+      "subnet": "Subnet C"
+    },
+    {
+      "id": "AST-023",
+      "name": "Internal Employee Portal",
+      "asset_type": "web_frontend",
+      "business_unit": "Shared IT",
+      "criticality": 3,
+      "annual_revenue_dependency_inr": 267976556,
+      "data_sensitivity": 2,
+      "internet_facing": true,
+      "is_crown_jewel": false,
+      "subnet": "Subnet A"
+    },
+    {
+      "id": "AST-024",
+      "name": "Regulatory Reporting Database",
+      "asset_type": "database",
+      "business_unit": "Treasury",
+      "criticality": 2,
+      "annual_revenue_dependency_inr": 9309317,
+      "data_sensitivity": 3,
+      "internet_facing": false,
+      "is_crown_jewel": false,
+      "subnet": "Subnet B"
+    },
+    {
+      "id": "AST-025",
+      "name": "Mobile Notification Gateway",
+      "asset_type": "microservice",
+      "business_unit": "Digital Channels",
+      "criticality": 3,
+      "annual_revenue_dependency_inr": 82905850,
+      "data_sensitivity": 3,
+      "internet_facing": false,
+      "is_crown_jewel": false,
+      "subnet": "Subnet C"
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "id": "VULN-0001",
+      "cve_id": "CVE-2026-3827",
+      "asset_id": "AST-001",
+      "title": "Remote Code Execution in API Gateway Edge",
+      "category": "access_control",
+      "cvss_score": 9.8,
+      "exploitability": 0.9,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-07-15"
+    },
+    {
+      "id": "VULN-0002",
+      "cve_id": "CVE-2026-1002",
+      "asset_id": "AST-002",
+      "title": "Environment Variable Leakage & Container Privilege Escalation",
+      "category": "misconfiguration",
+      "cvss_score": 8.5,
+      "exploitability": 0.75,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-08-01"
+    },
+    {
+      "id": "VULN-0003",
+      "cve_id": "CVE-2026-1003",
+      "asset_id": "AST-004",
+      "title": "Active Directory Kerberoasting & Token Impersonation",
+      "category": "access_control",
+      "cvss_score": 8.8,
+      "exploitability": 0.8,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-08-10"
+    },
+    {
+      "id": "VULN-0004",
+      "cve_id": "CVE-2026-1004",
+      "asset_id": "AST-005",
+      "title": "Payment Edge Proxy Request Smuggling",
+      "category": "network_security",
+      "cvss_score": 8.1,
+      "exploitability": 0.7,
+      "patch_status": "patch_available",
+      "discovered_date": "2026-08-20"
+    },
+    {
+      "id": "VULN-0005",
+      "cve_id": "CVE-2026-3876",
+      "asset_id": "AST-001",
+      "title": "Access Control flaw on Mobile Banking API Front-End",
+      "category": "access_control",
+      "cvss_score": 8.4,
+      "exploitability": 0.72,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-08-22"
+    },
+    {
+      "id": "VULN-0006",
+      "cve_id": "CVE-2026-3741",
+      "asset_id": "AST-002",
+      "title": "Logging Monitoring flaw on Authentication Microservice Container",
+      "category": "logging_monitoring",
+      "cvss_score": 6.7,
+      "exploitability": 0.71,
+      "patch_status": "patch_available",
+      "discovered_date": "2026-02-06"
+    },
+    {
+      "id": "VULN-0007",
+      "cve_id": "CVE-2026-4169",
+      "asset_id": "AST-002",
+      "title": "Patch Management flaw on Authentication Microservice Container",
+      "category": "patch_management",
+      "cvss_score": 5.4,
+      "exploitability": 0.5,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-05-30"
+    },
+    {
+      "id": "VULN-0008",
+      "cve_id": "CVE-2026-9354",
+      "asset_id": "AST-003",
+      "title": "Data Protection flaw on Core Transaction Database Vault",
+      "category": "data_protection",
+      "cvss_score": 6.2,
+      "exploitability": 0.49,
+      "patch_status": "patched",
+      "discovered_date": "2026-05-11"
+    },
+    {
+      "id": "VULN-0009",
+      "cve_id": "CVE-2026-6042",
+      "asset_id": "AST-003",
+      "title": "Access Control flaw on Core Transaction Database Vault",
+      "category": "access_control",
+      "cvss_score": 8.2,
+      "exploitability": 0.86,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-02-10"
+    },
+    {
+      "id": "VULN-0010",
+      "cve_id": "CVE-2026-6885",
+      "asset_id": "AST-004",
+      "title": "Access Control flaw on Privileged Active Directory Service Principal Account",
+      "category": "access_control",
+      "cvss_score": 6.1,
+      "exploitability": 0.57,
+      "patch_status": "patch_available",
+      "discovered_date": "2026-03-06"
+    },
+    {
+      "id": "VULN-0011",
+      "cve_id": "CVE-2026-9955",
+      "asset_id": "AST-004",
+      "title": "Data Protection flaw on Privileged Active Directory Service Principal Account",
+      "category": "data_protection",
+      "cvss_score": 8.7,
+      "exploitability": 0.61,
+      "patch_status": "patch_available",
+      "discovered_date": "2026-06-24"
+    },
+    {
+      "id": "VULN-0012",
+      "cve_id": "CVE-2026-8296",
+      "asset_id": "AST-005",
+      "title": "Logging Monitoring flaw on Payment Gateway Edge Proxy",
+      "category": "logging_monitoring",
+      "cvss_score": 5.9,
+      "exploitability": 0.48,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-01-01"
+    },
+    {
+      "id": "VULN-0013",
+      "cve_id": "CVE-2026-9813",
+      "asset_id": "AST-005",
+      "title": "Logging Monitoring flaw on Payment Gateway Edge Proxy",
+      "category": "logging_monitoring",
+      "cvss_score": 8.8,
+      "exploitability": 0.71,
+      "patch_status": "patch_available",
+      "discovered_date": "2026-02-15"
+    },
+    {
+      "id": "VULN-0014",
+      "cve_id": "CVE-2026-9476",
+      "asset_id": "AST-006",
+      "title": "Access Control flaw on Treasury Settlement Engine",
+      "category": "access_control",
+      "cvss_score": 8.8,
+      "exploitability": 0.72,
+      "patch_status": "patch_available",
+      "discovered_date": "2026-06-05"
+    },
+    {
+      "id": "VULN-0015",
+      "cve_id": "CVE-2026-3629",
+      "asset_id": "AST-006",
+      "title": "Patch Management flaw on Treasury Settlement Engine",
+      "category": "patch_management",
+      "cvss_score": 6.1,
+      "exploitability": 0.47,
+      "patch_status": "patched",
+      "discovered_date": "2026-08-25"
+    },
+    {
+      "id": "VULN-0016",
+      "cve_id": "CVE-2026-6344",
+      "asset_id": "AST-006",
+      "title": "Access Control flaw on Treasury Settlement Engine",
+      "category": "access_control",
+      "cvss_score": 7.3,
+      "exploitability": 0.65,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-04-03"
+    },
+    {
+      "id": "VULN-0017",
+      "cve_id": "CVE-2026-3961",
+      "asset_id": "AST-007",
+      "title": "Access Control flaw on SWIFT Integration Gateway",
+      "category": "access_control",
+      "cvss_score": 5.3,
+      "exploitability": 0.49,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-07-07"
+    },
+    {
+      "id": "VULN-0018",
+      "cve_id": "CVE-2026-5981",
+      "asset_id": "AST-007",
+      "title": "Access Control flaw on SWIFT Integration Gateway",
+      "category": "access_control",
+      "cvss_score": 9.4,
+      "exploitability": 0.86,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-06-18"
+    },
+    {
+      "id": "VULN-0019",
+      "cve_id": "CVE-2026-9756",
+      "asset_id": "AST-008",
+      "title": "Data Protection flaw on Customer Onboarding Portal",
+      "category": "data_protection",
+      "cvss_score": 4.9,
+      "exploitability": 0.45,
+      "patch_status": "patch_available",
+      "discovered_date": "2026-09-04"
+    },
+    {
+      "id": "VULN-0020",
+      "cve_id": "CVE-2026-3735",
+      "asset_id": "AST-008",
+      "title": "Data Protection flaw on Customer Onboarding Portal",
+      "category": "data_protection",
+      "cvss_score": 8.2,
+      "exploitability": 0.8,
+      "patch_status": "patch_available",
+      "discovered_date": "2026-04-13"
+    },
+    {
+      "id": "VULN-0021",
+      "cve_id": "CVE-2026-7323",
+      "asset_id": "AST-009",
+      "title": "Network Security flaw on Core Banking Mainframe Adapter",
+      "category": "network_security",
+      "cvss_score": 6.4,
+      "exploitability": 0.58,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-02-27"
+    },
+    {
+      "id": "VULN-0022",
+      "cve_id": "CVE-2026-2524",
+      "asset_id": "AST-009",
+      "title": "Network Security flaw on Core Banking Mainframe Adapter",
+      "category": "network_security",
+      "cvss_score": 4.1,
+      "exploitability": 0.38,
+      "patch_status": "patch_available",
+      "discovered_date": "2026-01-02"
+    },
+    {
+      "id": "VULN-0023",
+      "cve_id": "CVE-2026-2581",
+      "asset_id": "AST-009",
+      "title": "Logging Monitoring flaw on Core Banking Mainframe Adapter",
+      "category": "logging_monitoring",
+      "cvss_score": 7.5,
+      "exploitability": 0.59,
+      "patch_status": "patched",
+      "discovered_date": "2026-08-09"
+    },
+    {
+      "id": "VULN-0024",
+      "cve_id": "CVE-2026-2580",
+      "asset_id": "AST-010",
+      "title": "Data Protection flaw on Corporate Payments Portal",
+      "category": "data_protection",
+      "cvss_score": 5.3,
+      "exploitability": 0.51,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-02-03"
+    },
+    {
+      "id": "VULN-0025",
+      "cve_id": "CVE-2026-7925",
+      "asset_id": "AST-010",
+      "title": "Data Protection flaw on Corporate Payments Portal",
+      "category": "data_protection",
+      "cvss_score": 7.2,
+      "exploitability": 0.57,
+      "patch_status": "patch_available",
+      "discovered_date": "2026-04-15"
+    },
+    {
+      "id": "VULN-0026",
+      "cve_id": "CVE-2026-2772",
+      "asset_id": "AST-011",
+      "title": "Access Control flaw on ATM Controller Cluster",
+      "category": "access_control",
+      "cvss_score": 7.6,
+      "exploitability": 0.64,
+      "patch_status": "patch_available",
+      "discovered_date": "2026-08-10"
+    },
+    {
+      "id": "VULN-0027",
+      "cve_id": "CVE-2026-2443",
+      "asset_id": "AST-012",
+      "title": "Logging Monitoring flaw on Retail Loan Origination Service",
+      "category": "logging_monitoring",
+      "cvss_score": 7.6,
+      "exploitability": 0.73,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-07-06"
+    },
+    {
+      "id": "VULN-0028",
+      "cve_id": "CVE-2026-4779",
+      "asset_id": "AST-012",
+      "title": "Access Control flaw on Retail Loan Origination Service",
+      "category": "access_control",
+      "cvss_score": 5.4,
+      "exploitability": 0.42,
+      "patch_status": "patch_available",
+      "discovered_date": "2026-04-19"
+    },
+    {
+      "id": "VULN-0029",
+      "cve_id": "CVE-2026-3503",
+      "asset_id": "AST-012",
+      "title": "Network Security flaw on Retail Loan Origination Service",
+      "category": "network_security",
+      "cvss_score": 6.5,
+      "exploitability": 0.68,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-07-26"
+    },
+    {
+      "id": "VULN-0030",
+      "cve_id": "CVE-2026-2802",
+      "asset_id": "AST-013",
+      "title": "Access Control flaw on Credit Card Fraud Detection Engine",
+      "category": "access_control",
+      "cvss_score": 7.6,
+      "exploitability": 0.7,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-01-24"
+    },
+    {
+      "id": "VULN-0031",
+      "cve_id": "CVE-2026-9588",
+      "asset_id": "AST-013",
+      "title": "Patch Management flaw on Credit Card Fraud Detection Engine",
+      "category": "patch_management",
+      "cvss_score": 4.9,
+      "exploitability": 0.44,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-04-13"
+    },
+    {
+      "id": "VULN-0032",
+      "cve_id": "CVE-2026-9392",
+      "asset_id": "AST-013",
+      "title": "Access Control flaw on Credit Card Fraud Detection Engine",
+      "category": "access_control",
+      "cvss_score": 4.9,
+      "exploitability": 0.34,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-08-26"
+    },
+    {
+      "id": "VULN-0033",
+      "cve_id": "CVE-2026-4336",
+      "asset_id": "AST-014",
+      "title": "Misconfiguration flaw on Customer Identity Directory (LDAP)",
+      "category": "misconfiguration",
+      "cvss_score": 7.8,
+      "exploitability": 0.77,
+      "patch_status": "patch_available",
+      "discovered_date": "2026-06-19"
+    },
+    {
+      "id": "VULN-0034",
+      "cve_id": "CVE-2026-7885",
+      "asset_id": "AST-014",
+      "title": "Misconfiguration flaw on Customer Identity Directory (LDAP)",
+      "category": "misconfiguration",
+      "cvss_score": 4.9,
+      "exploitability": 0.4,
+      "patch_status": "patched",
+      "discovered_date": "2026-05-29"
+    },
+    {
+      "id": "VULN-0035",
+      "cve_id": "CVE-2026-6441",
+      "asset_id": "AST-015",
+      "title": "Access Control flaw on Centralized Log Collector (Splunk)",
+      "category": "access_control",
+      "cvss_score": 8.1,
+      "exploitability": 0.59,
+      "patch_status": "patch_available",
+      "discovered_date": "2026-05-09"
+    },
+    {
+      "id": "VULN-0036",
+      "cve_id": "CVE-2026-9531",
+      "asset_id": "AST-015",
+      "title": "Data Protection flaw on Centralized Log Collector (Splunk)",
+      "category": "data_protection",
+      "cvss_score": 4.9,
+      "exploitability": 0.53,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-02-17"
+    },
+    {
+      "id": "VULN-0037",
+      "cve_id": "CVE-2026-2561",
+      "asset_id": "AST-015",
+      "title": "Data Protection flaw on Centralized Log Collector (Splunk)",
+      "category": "data_protection",
+      "cvss_score": 4.4,
+      "exploitability": 0.46,
+      "patch_status": "patch_available",
+      "discovered_date": "2026-08-30"
+    },
+    {
+      "id": "VULN-0038",
+      "cve_id": "CVE-2026-4016",
+      "asset_id": "AST-016",
+      "title": "Data Protection flaw on DMZ Perimeter Firewall Cluster",
+      "category": "data_protection",
+      "cvss_score": 7.3,
+      "exploitability": 0.69,
+      "patch_status": "patch_available",
+      "discovered_date": "2026-05-30"
+    },
+    {
+      "id": "VULN-0039",
+      "cve_id": "CVE-2026-6630",
+      "asset_id": "AST-016",
+      "title": "Data Protection flaw on DMZ Perimeter Firewall Cluster",
+      "category": "data_protection",
+      "cvss_score": 5.7,
+      "exploitability": 0.46,
+      "patch_status": "patch_available",
+      "discovered_date": "2026-03-22"
+    },
+    {
+      "id": "VULN-0040",
+      "cve_id": "CVE-2026-3955",
+      "asset_id": "AST-016",
+      "title": "Network Security flaw on DMZ Perimeter Firewall Cluster",
+      "category": "network_security",
+      "cvss_score": 6.2,
+      "exploitability": 0.6,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-03-22"
+    },
+    {
+      "id": "VULN-0041",
+      "cve_id": "CVE-2026-2076",
+      "asset_id": "AST-017",
+      "title": "Misconfiguration flaw on Core Internal Router Pair",
+      "category": "misconfiguration",
+      "cvss_score": 7.4,
+      "exploitability": 0.68,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-05-18"
+    },
+    {
+      "id": "VULN-0042",
+      "cve_id": "CVE-2026-6144",
+      "asset_id": "AST-018",
+      "title": "Network Security flaw on General Ledger Database",
+      "category": "network_security",
+      "cvss_score": 4.7,
+      "exploitability": 0.39,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-03-04"
+    },
+    {
+      "id": "VULN-0043",
+      "cve_id": "CVE-2026-4334",
+      "asset_id": "AST-019",
+      "title": "Patch Management flaw on Customer PII Data Lake",
+      "category": "patch_management",
+      "cvss_score": 6.4,
+      "exploitability": 0.59,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-07-26"
+    },
+    {
+      "id": "VULN-0044",
+      "cve_id": "CVE-2026-7357",
+      "asset_id": "AST-019",
+      "title": "Data Protection flaw on Customer PII Data Lake",
+      "category": "data_protection",
+      "cvss_score": 4.0,
+      "exploitability": 0.41,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-06-19"
+    },
+    {
+      "id": "VULN-0045",
+      "cve_id": "CVE-2026-9691",
+      "asset_id": "AST-020",
+      "title": "Patch Management flaw on Wealth Management Portal",
+      "category": "patch_management",
+      "cvss_score": 5.5,
+      "exploitability": 0.58,
+      "patch_status": "patch_available",
+      "discovered_date": "2026-02-09"
+    },
+    {
+      "id": "VULN-0046",
+      "cve_id": "CVE-2026-4308",
+      "asset_id": "AST-021",
+      "title": "Data Protection flaw on Third-Party Payment Partner Switch",
+      "category": "data_protection",
+      "cvss_score": 5.2,
+      "exploitability": 0.44,
+      "patch_status": "patch_available",
+      "discovered_date": "2026-08-07"
+    },
+    {
+      "id": "VULN-0047",
+      "cve_id": "CVE-2026-4162",
+      "asset_id": "AST-021",
+      "title": "Data Protection flaw on Third-Party Payment Partner Switch",
+      "category": "data_protection",
+      "cvss_score": 6.7,
+      "exploitability": 0.71,
+      "patch_status": "patched",
+      "discovered_date": "2026-01-24"
+    },
+    {
+      "id": "VULN-0048",
+      "cve_id": "CVE-2026-5469",
+      "asset_id": "AST-022",
+      "title": "Network Security flaw on Enterprise Analytics Engine",
+      "category": "network_security",
+      "cvss_score": 4.2,
+      "exploitability": 0.35,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-09-08"
+    },
+    {
+      "id": "VULN-0049",
+      "cve_id": "CVE-2026-4145",
+      "asset_id": "AST-022",
+      "title": "Patch Management flaw on Enterprise Analytics Engine",
+      "category": "patch_management",
+      "cvss_score": 8.1,
+      "exploitability": 0.75,
+      "patch_status": "patch_available",
+      "discovered_date": "2026-01-03"
+    },
+    {
+      "id": "VULN-0050",
+      "cve_id": "CVE-2026-2916",
+      "asset_id": "AST-022",
+      "title": "Access Control flaw on Enterprise Analytics Engine",
+      "category": "access_control",
+      "cvss_score": 9.2,
+      "exploitability": 0.9,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-01-10"
+    },
+    {
+      "id": "VULN-0051",
+      "cve_id": "CVE-2026-6771",
+      "asset_id": "AST-023",
+      "title": "Data Protection flaw on Internal Employee Portal",
+      "category": "data_protection",
+      "cvss_score": 4.8,
+      "exploitability": 0.36,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-08-19"
+    },
+    {
+      "id": "VULN-0052",
+      "cve_id": "CVE-2026-9643",
+      "asset_id": "AST-023",
+      "title": "Access Control flaw on Internal Employee Portal",
+      "category": "access_control",
+      "cvss_score": 8.9,
+      "exploitability": 0.7,
+      "patch_status": "unpatched",
+      "discovered_date": "2026-01-27"
+    },
+    {
+      "id": "VULN-0053",
+      "cve_id": "CVE-2026-8390",
+      "asset_id": "AST-024",
+      "title": "Data Protection flaw on Regulatory Reporting Database",
+      "category": "data_protection",
+      "cvss_score": 8.9,
+      "exploitability": 0.77,
+      "patch_status": "patch_available",
+      "discovered_date": "2026-02-09"
+    },
+    {
+      "id": "VULN-0054",
+      "cve_id": "CVE-2026-9583",
+      "asset_id": "AST-024",
+      "title": "Patch Management flaw on Regulatory Reporting Database",
+      "category": "patch_management",
+      "cvss_score": 8.8,
+      "exploitability": 0.96,
+      "patch_status": "patched",
+      "discovered_date": "2026-08-14"
+    },
+    {
+      "id": "VULN-0055",
+      "cve_id": "CVE-2026-2203",
+      "asset_id": "AST-025",
+      "title": "Patch Management flaw on Mobile Notification Gateway",
+      "category": "patch_management",
+      "cvss_score": 8.1,
+      "exploitability": 0.67,
+      "patch_status": "patched",
+      "discovered_date": "2026-07-25"
+    },
+    {
+      "id": "VULN-0056",
+      "cve_id": "CVE-2026-7487",
+      "asset_id": "AST-025",
+      "title": "Logging Monitoring flaw on Mobile Notification Gateway",
+      "category": "logging_monitoring",
+      "cvss_score": 8.5,
+      "exploitability": 0.69,
+      "patch_status": "patch_available",
+      "discovered_date": "2026-01-28"
+    }
+  ],
+  "controls": [
+    {
+      "id": "CTL-001",
+      "name": "Phishing-Resistant MFA Enforcement",
+      "category": "access_control",
+      "cost_inr": 1800000,
+      "effectiveness": 0.85,
+      "impact_reduction": 0.0,
+      "dampens_edge_types": {
+        "credential_reuse": 0.85,
+        "token_hijack": 0.7
+      },
+      "covered_asset_ids": [
+        "AST-002",
+        "AST-004"
+      ],
+      "status": "deployed",
+      "health": 1.0
+    },
+    {
+      "id": "CTL-002",
+      "name": "Strict Subnet Micro-Segmentation",
+      "category": "network_security",
+      "cost_inr": 2500000,
+      "effectiveness": 0.8,
+      "impact_reduction": 0.2,
+      "dampens_edge_types": {
+        "network_access": 0.8,
+        "service_call": 0.75
+      },
+      "covered_asset_ids": [
+        "AST-001",
+        "AST-002",
+        "AST-003",
+        "AST-005"
+      ],
+      "status": "candidate",
+      "health": 1.0
+    },
+    {
+      "id": "CTL-003",
+      "name": "API Gateway Web Application Firewall (WAF)",
+      "category": "network_security",
+      "cost_inr": 800000,
+      "effectiveness": 0.75,
+      "impact_reduction": 0.1,
+      "dampens_edge_types": {
+        "network_access": 0.75
+      },
+      "covered_asset_ids": [
+        "AST-001",
+        "AST-005"
+      ],
+      "status": "candidate",
+      "health": 1.0
+    },
+    {
+      "id": "CTL-004",
+      "name": "EDR Host Agent Coverage Expansion",
+      "category": "logging_monitoring",
+      "cost_inr": 1200000,
+      "effectiveness": 0.7,
+      "impact_reduction": 0.3,
+      "dampens_edge_types": {
+        "token_hijack": 0.65,
+        "trust_relationship": 0.6
+      },
+      "covered_asset_ids": [
+        "AST-002",
+        "AST-004",
+        "AST-006",
+        "AST-007"
+      ],
+      "status": "candidate",
+      "health": 1.0
+    },
+    {
+      "id": "CTL-005",
+      "name": "Automated Vulnerability Patching Pipeline",
+      "category": "patch_management",
+      "cost_inr": 1500000,
+      "effectiveness": 0.9,
+      "impact_reduction": 0.0,
+      "dampens_edge_types": {
+        "network_access": 0.5,
+        "service_call": 0.5
+      },
+      "covered_asset_ids": [
+        "AST-001",
+        "AST-002",
+        "AST-003",
+        "AST-004",
+        "AST-005",
+        "AST-006",
+        "AST-007",
+        "AST-008",
+        "AST-009",
+        "AST-010",
+        "AST-011",
+        "AST-012",
+        "AST-013",
+        "AST-014",
+        "AST-015",
+        "AST-016",
+        "AST-017",
+        "AST-018",
+        "AST-019",
+        "AST-022",
+        "AST-023",
+        "AST-025"
+      ],
+      "status": "candidate",
+      "health": 1.0
+    },
+    {
+      "id": "CTL-006",
+      "name": "Database Vault & HSM Field-Level Encryption",
+      "category": "data_protection",
+      "cost_inr": 3500000,
+      "effectiveness": 0.6,
+      "impact_reduction": 0.85,
+      "dampens_edge_types": {
+        "data_flow": 0.9,
+        "trust_relationship": 0.7
+      },
+      "covered_asset_ids": [
+        "AST-003",
+        "AST-018",
+        "AST-024"
+      ],
+      "status": "candidate",
+      "health": 1.0
+    },
+    {
+      "id": "CTL-007",
+      "name": "Privileged Access Management (PAM) Vaulting",
+      "category": "access_control",
+      "cost_inr": 2200000,
+      "effectiveness": 0.88,
+      "impact_reduction": 0.15,
+      "dampens_edge_types": {
+        "credential_reuse": 0.9,
+        "token_hijack": 0.85
+      },
+      "covered_asset_ids": [
+        "AST-004",
+        "AST-014"
+      ],
+      "status": "deployed",
+      "health": 0.85
+    },
+    {
+      "id": "CTL-008",
+      "name": "Perimeter DDoS & Traffic Scrubbing",
+      "category": "network_security",
+      "cost_inr": 1000000,
+      "effectiveness": 0.8,
+      "impact_reduction": 0.5,
+      "dampens_edge_types": {
+        "network_access": 0.8
+      },
+      "covered_asset_ids": [
+        "AST-001",
+        "AST-005"
+      ],
+      "status": "deployed",
+      "health": 0.95
+    },
+    {
+      "id": "CTL-009",
+      "name": "SIEM Real-Time SOAR Incident Response",
+      "category": "logging_monitoring",
+      "cost_inr": 2000000,
+      "effectiveness": 0.65,
+      "impact_reduction": 0.4,
+      "dampens_edge_types": {
+        "credential_reuse": 0.5,
+        "token_hijack": 0.5
+      },
+      "covered_asset_ids": [
+        "AST-001",
+        "AST-002",
+        "AST-003",
+        "AST-004",
+        "AST-005",
+        "AST-006",
+        "AST-007",
+        "AST-008",
+        "AST-009",
+        "AST-010",
+        "AST-011",
+        "AST-012",
+        "AST-013",
+        "AST-014",
+        "AST-015",
+        "AST-016",
+        "AST-017",
+        "AST-018",
+        "AST-019",
+        "AST-020",
+        "AST-021",
+        "AST-022",
+        "AST-023",
+        "AST-024",
+        "AST-025"
+      ],
+      "status": "deployed",
+      "health": 0.9
+    },
+    {
+      "id": "CTL-010",
+      "name": "Zero-Trust IAM Policy Engine",
+      "category": "access_control",
+      "cost_inr": 3000000,
+      "effectiveness": 0.82,
+      "impact_reduction": 0.25,
+      "dampens_edge_types": {
+        "credential_reuse": 0.8,
+        "trust_relationship": 0.8
+      },
+      "covered_asset_ids": [
+        "AST-002",
+        "AST-004"
+      ],
+      "status": "candidate",
+      "health": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "INTERNET",
+      "target": "AST-001",
+      "relationship_type": "network_access",
+      "exploit_probability": 0.9,
+      "description": "Public HTTPS ingress to Mobile Banking API Gateway (CVE-2026-3827)"
+    },
+    {
+      "source": "INTERNET",
+      "target": "AST-005",
+      "relationship_type": "network_access",
+      "exploit_probability": 0.85,
+      "description": "Public ingress to Payment Gateway Edge Proxy (CVE-2026-1004)"
+    },
+    {
+      "source": "AST-001",
+      "target": "AST-002",
+      "relationship_type": "service_call",
+      "exploit_probability": 0.75,
+      "description": "Pivots via leaked environment variables from API edge to Auth Container"
+    },
+    {
+      "source": "AST-002",
+      "target": "AST-004",
+      "relationship_type": "token_hijack",
+      "exploit_probability": 0.8,
+      "description": "Hijacks active Kubernetes Service Account Token to reach AD Principal Account"
+    },
+    {
+      "source": "AST-004",
+      "target": "AST-003",
+      "relationship_type": "credential_reuse",
+      "exploit_probability": 0.88,
+      "description": "Lateral network traversal to Core Transaction DB Vault via AD Service Principal"
+    },
+    {
+      "source": "AST-005",
+      "target": "AST-002",
+      "relationship_type": "service_call",
+      "exploit_probability": 0.7,
+      "description": "Internal REST call from Payment Edge to Auth Microservice"
+    },
+    {
+      "source": "AST-002",
+      "target": "AST-003",
+      "relationship_type": "data_flow",
+      "exploit_probability": 0.6,
+      "description": "Direct SQL connection pool access from Auth Container to DB Vault"
+    },
+    {
+      "source": "INTERNET",
+      "target": "AST-007",
+      "relationship_type": "network_access",
+      "exploit_probability": 0.61,
+      "description": "Public access to SWIFT Integration Gateway"
+    },
+    {
+      "source": "INTERNET",
+      "target": "AST-008",
+      "relationship_type": "network_access",
+      "exploit_probability": 0.51,
+      "description": "Public access to Customer Onboarding Portal"
+    },
+    {
+      "source": "INTERNET",
+      "target": "AST-021",
+      "relationship_type": "network_access",
+      "exploit_probability": 0.64,
+      "description": "Public access to Third-Party Payment Partner Switch"
+    },
+    {
+      "source": "INTERNET",
+      "target": "AST-023",
+      "relationship_type": "network_access",
+      "exploit_probability": 0.56,
+      "description": "Public access to Internal Employee Portal"
+    },
+    {
+      "source": "AST-001",
+      "target": "AST-004",
+      "relationship_type": "service_call",
+      "exploit_probability": 0.48,
+      "description": "Internal pivot from AST-001 to AST-004"
+    },
+    {
+      "source": "AST-001",
+      "target": "AST-018",
+      "relationship_type": "trust_relationship",
+      "exploit_probability": 0.7,
+      "description": "Internal pivot from AST-001 to AST-018"
+    },
+    {
+      "source": "AST-005",
+      "target": "AST-004",
+      "relationship_type": "trust_relationship",
+      "exploit_probability": 0.64,
+      "description": "Internal pivot from AST-005 to AST-004"
+    },
+    {
+      "source": "AST-005",
+      "target": "AST-018",
+      "relationship_type": "service_call",
+      "exploit_probability": 0.44,
+      "description": "Internal pivot from AST-005 to AST-018"
+    },
+    {
+      "source": "AST-006",
+      "target": "AST-004",
+      "relationship_type": "trust_relationship",
+      "exploit_probability": 0.41,
+      "description": "Internal pivot from AST-006 to AST-004"
+    },
+    {
+      "source": "AST-006",
+      "target": "AST-018",
+      "relationship_type": "trust_relationship",
+      "exploit_probability": 0.55,
+      "description": "Internal pivot from AST-006 to AST-018"
+    },
+    {
+      "source": "AST-007",
+      "target": "AST-004",
+      "relationship_type": "service_call",
+      "exploit_probability": 0.49,
+      "description": "Internal pivot from AST-007 to AST-004"
+    },
+    {
+      "source": "AST-007",
+      "target": "AST-018",
+      "relationship_type": "service_call",
+      "exploit_probability": 0.53,
+      "description": "Internal pivot from AST-007 to AST-018"
+    },
+    {
+      "source": "AST-002",
+      "target": "AST-003",
+      "relationship_type": "data_flow",
+      "exploit_probability": 0.72,
+      "description": "Lateral pivot from AST-002 to core target AST-003"
+    },
+    {
+      "source": "AST-002",
+      "target": "AST-011",
+      "relationship_type": "data_flow",
+      "exploit_probability": 0.68,
+      "description": "Lateral pivot from AST-002 to core target AST-011"
+    },
+    {
+      "source": "AST-004",
+      "target": "AST-010",
+      "relationship_type": "data_flow",
+      "exploit_probability": 0.69,
+      "description": "Lateral pivot from AST-004 to core target AST-010"
+    },
+    {
+      "source": "AST-004",
+      "target": "AST-011",
+      "relationship_type": "data_flow",
+      "exploit_probability": 0.74,
+      "description": "Lateral pivot from AST-004 to core target AST-011"
+    },
+    {
+      "source": "AST-014",
+      "target": "AST-011",
+      "relationship_type": "credential_reuse",
+      "exploit_probability": 0.61,
+      "description": "Lateral pivot from AST-014 to core target AST-011"
+    },
+    {
+      "source": "AST-018",
+      "target": "AST-003",
+      "relationship_type": "data_flow",
+      "exploit_probability": 0.66,
+      "description": "Lateral pivot from AST-018 to core target AST-003"
+    },
+    {
+      "source": "AST-018",
+      "target": "AST-010",
+      "relationship_type": "credential_reuse",
+      "exploit_probability": 0.68,
+      "description": "Lateral pivot from AST-018 to core target AST-010"
+    }
+  ],
+  "as_of": "2026-09-28"
+}
